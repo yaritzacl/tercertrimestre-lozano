@@ -1,0 +1,36 @@
+h1 {
+    color: #FF5F45; 
+ }
+ 
+ /* Esto es un comentario */
+ 
+ p {
+     color: red;
+     font-size: 16pt;
+ }
+ 
+ /* Selector id */
+ 
+ #primera-noticia {
+     color: green;
+     font-size: 12pt;
+ }
+ 
+ #segunda-noticia {
+     color: blueviolet;
+ }
+ 
+ /* selecotr class */
+ 
+ .encabezado {
+     font-size: 24pt;
+     text-transform: uppercase;
+ }
+ 
+ *.warning {
+     color: #FF5F45;
+ }
+ 
+ .autor , .fecha , .ubicacion , h1 , #segunda-noticia {
+     text-decoration: underline;
+ }

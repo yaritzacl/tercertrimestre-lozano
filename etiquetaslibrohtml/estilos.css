@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 70px;
+}
+nav{
+        text-align: center;
+        background-color: bisque;
+        padding: 60px;
+}
+section {
+    width: 50%;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: rgb(26, 206, 213);
+    float: left;
+    
+}
+aside {
+    width: 50%;
+    padding: 60px;
+    box-sizing: border-box;
+    background: rgb(13, 206, 241);
+    float: left;
+}
+footer{
+    float :left;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    
+}
+main{
+    background-color: blue;
+
+}
+body{
+    background-image:url("https://tusimagenesde.com/wp-content/uploads/2018/02/imagenes-para-fondo-de-pantalla-2.jpg");
+}
