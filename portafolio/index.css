@@ -1,0 +1,144 @@
+
+header{
+    text-align: left;
+    background-color: rgb(8, 8, 8);
+    padding: 50px;
+    color:rgb(22, 122, 209)
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding:60px;
+    color: black;
+
+    }
+section {
+    background-size: 100vh;
+    width: 50%;
+    padding: 90px;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+    color:rgb(255, 255, 255);
+
+}
+aside {
+    width: 50%;
+    padding: 100;
+    box-sizing: border-box;
+    float: left;
+    color: rgb(0, 0, 0);
+}
+footer{
+    float :left;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+
+
+.botones ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.but{
+    display: flex;
+    background-color: black;
+    color: azure;
+    border: 2px solid rgb(238, 146, 8);
+    padding: 16px 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index:1;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.encabezado2{
+    align-items: center;
+    margin-top: 300px;
+
+}
+.encabezado2 h1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-left: 50%;
+
+}
+.encabezado2 p{
+    display: flex;
+    width: 30%;
+    padding: 190px;
+    height: auto;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(/imagenes/ggg.png);
+    background-size: 100%;
+
+}
+.contactos{
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 45%;
+
+}
+
+
+.padre {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.foto1 {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    transition: transform 1s ease-in 2s;
+    animation: traslacion 4s ease-in-out infinite forwards alternate;
+}
+
+.padre:hover .foto1 {
+    transform: translateY(10%);
+    background-color: rgb(0, 0, 0);
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: rgb(0, 0, 0);
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(25%) translateY(0%);
+    }
+    50% {
+        transform: translateX(25%) translateY(15%);
+    }
+    75% {
+        transform: translateX(0%) translateY(15%);
+    }
+    100% {
+        background-color: rgb(0, 0, 0);
+        transform: translateX(0%) translateY(0%);
+    }
+}

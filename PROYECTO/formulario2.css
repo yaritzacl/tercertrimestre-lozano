@@ -1,0 +1,37 @@
+.portada{
+    background: #022859;
+    grid-row: 1/2;
+    grid-column:1/6;
+    color: ghostwhite;  
+    text-align: center; 
+    height: 100px;
+    width: 100%;
+    
+}
+.intro  {
+    display: flex; 
+    background-color: #0487D9; 
+    justify-content: center; 
+    align-items: center;  
+    margin: 20px;    
+}
+.intro2  {
+    display: flex;  
+    background-color: #0487D9;
+    justify-content: center; 
+    align-items: center;   
+    margin: 20px;  
+    
+}
+.form-floating{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    background :#0487D9 ;
+    margin: 20px;  
+    
+} 
+.row g-3{
+      
+   color: rgb(230, 138, 1); 
+}

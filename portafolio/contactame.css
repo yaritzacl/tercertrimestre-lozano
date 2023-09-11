@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://www.xtrafondos.com/wallpapers/ondas-naranjas-abstractas-5753.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contactos{
+    display: grid;
+    place-items: center;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    height: 400px;
+    width: 400px;
+    margin-left: 800px;
+    
+    
+}
