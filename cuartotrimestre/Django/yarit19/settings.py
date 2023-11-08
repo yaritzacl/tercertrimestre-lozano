@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'usuarios.apps.UsuariosConfig'
+    'usuarios.apps.UsuariosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -120,6 +120,8 @@ STATIC_URL = 'static/'
 STATIC_ROOT=BASE_DIR
 STATICFILES_DIRS=['yarit19/static']
 
+MEDIA_ROOT = BASE_DIR / 'media'   # configuracion para models y trabajar con imagenes 
+MEDIA_URL='/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
