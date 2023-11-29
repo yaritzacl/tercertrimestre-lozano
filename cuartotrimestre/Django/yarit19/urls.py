@@ -19,8 +19,11 @@ from django.urls import path,include
 from . import views
 from . import settings
 from django.conf.urls.static import static
+from rest_framework.documentation import include_docs_urls
 urlpatterns = [
     path('admin/', admin.site.urls),  # lista de terminaciones
     path('',views.home),#viems lugar donde determina lo que hace . home es la funcion
-    path('usuarios/', include('usuarios.urls'))
+    path('usuarios/', include('usuarios.urls')),
+    path("docs/",include_docs_urls(title="ApiDocumentation"))
+
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

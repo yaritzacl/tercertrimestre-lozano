@@ -21,9 +21,13 @@
               <th>Documento</th>
               <th>Ficha</th>
               <th>foto</th>
+              <th>Editar</th>
+              <th>Eliminar</th>
+              
             </tr>
           </thead>
           <tbody>
+            {% comment %} {% block  content %}  {% endcomment %}
             {%for user in get_usuarios%}
             <tr>
               <td>{{user.nombre}}</td>
@@ -35,10 +39,15 @@
                   width="40"
                   height="40"
                   alt="imagen"
-                />
+                  />
+                  <td><a  class="btn btn-warning" href={% url "editar_Usuario" usr.id %}>Editar</a></td>
+                  <td><a  class="btn btn-danger" href={% url "eliminar_usuario" usr.id %}>Eliminar</a></td>
+
+               
               </td>
             </tr>
             {%endfor%}
+            {% comment %} {% endblock  content %}  {% endcomment %}
           </tbody>
         </table>
       </div>
